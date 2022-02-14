@@ -6,8 +6,8 @@ public class MathFunc {
     }
 
     public static int func2(int x) {
-        return 1 / x; // проверка не дала закоммитить, если предварительно присвоить результат в переменную y,
-                      // она указывается как избыточная.
+        return 1 / x;
+
     }
 
     public static void main(String[] args) {
