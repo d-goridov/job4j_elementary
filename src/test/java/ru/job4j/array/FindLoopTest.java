@@ -40,4 +40,27 @@ public class FindLoopTest {
         int expected = -1;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenDiapasonHas2Then3() {
+        int[] data = new int[]{53, -54, 13, 2, 11};
+        int element = 13;
+        int start = 1;
+        int finish = 3;
+        int result = FindLoop.indexOf(data, element, start, finish);
+        int expected = 2;
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
+    public void whenDiapasonHasNot21ThenMinus1() {
+        int[] data = new int[]{21, -54, 13, 2, 11};
+        int element = 21;
+        int start = 2;
+        int finish = 4;
+        int result = FindLoop.indexOf(data, element, start, finish);
+        int expected = -1;
+        Assert.assertEquals(expected, result);
+    }
+
 }
