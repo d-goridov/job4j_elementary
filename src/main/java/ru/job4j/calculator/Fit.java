@@ -14,7 +14,6 @@ public class Fit {
         double man = Fit.manWeight(heightMan);
         String result = String.format("%.2f", man);
         System.out.println("Man 187 is " + result);
-
         short heightWoman = 170;
         double woman = Fit.womanWeight(heightWoman);
         String result1 = String.format("%.2f", woman);

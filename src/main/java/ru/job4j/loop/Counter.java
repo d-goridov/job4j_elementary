@@ -2,11 +2,11 @@ package ru.job4j.loop;
 
 public class Counter {
     public static int sum(int start, int finish) {
-        int sum = 0;
+        int result = 0;
         for (int i = start; i <= finish; i++) {
-            sum += i;
+            result += i;
         }
-        return sum;
+        return result;
     }
 
     public static int sumByEven(int start, int finish) {
